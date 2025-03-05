@@ -35,10 +35,3 @@ A productivity-focused Chrome extension designed to help users stay on task by b
 - Implements Chrome Extensions Manifest V3
 - Uses Chrome's storage API for persistent settings
 
-## License
-
-[MIT License](LICENSE)
-
----
-
-*Stay focused, stay productive!*

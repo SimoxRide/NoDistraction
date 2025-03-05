@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Focus Blocker",
+    "version": "1.0",
+    "description": "Block distracting websites during working hours to increase productivity",
+    "permissions": [
+        "storage",
+        "tabs",
+        "webNavigation"
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_ui": {
+        "page": "options/options.html",
+        "open_in_tab": true
+    }
+}
